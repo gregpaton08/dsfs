@@ -1,4 +1,4 @@
-# Chapter 21 - Natrual Language Processing
+# Chapter 21 - Natural Language Processing
 
 ## Word Clouds
 
