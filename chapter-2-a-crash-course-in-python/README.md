@@ -12,7 +12,7 @@ def add(a: int, b: int) -> int:
 Reasons to do this:
 
 * Important form of documentation. Much easier to read when the types are explicitly written out.
-* Allows you to use static analyzers ([mypy](http://mypy-lang.org/), [ptype](https://github.com/google/pytype#pytype---))
+* Allows you to use static analyzers ([mypy](http://mypy-lang.org/), [pytype](https://github.com/google/pytype#pytype---))
 * Having to think about types forces you to write cleaner functions and interfaces.
 * Helps with IDE auto-complete features.
 
