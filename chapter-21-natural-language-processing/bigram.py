@@ -3,11 +3,11 @@
 import web_scrape
 from collections import defaultdict
 import random
-from typing import List
+from typing import Dict, List
 
 words = web_scrape.scrape()
 
-pairs = defaultdict(list)
+pairs: Dict[str, List[str]] = defaultdict(list)
 for prev, current in zip(words, words[1:]):
     pairs[prev].append(current)
 

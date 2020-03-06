@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup # type: ignore
 import requests
 import re
 from typing import List
